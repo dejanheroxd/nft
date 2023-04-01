@@ -9,22 +9,23 @@ html {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	height: 98.4vh;
+	min-height: 98.4vh;
 }
 
 .card {
 	background-color: hsl(216, 50%, 16%);
 	padding: 25px;
-	width: 31vh;
-	height: 58vh;
+	max-width: 31vh;
+	min-height:  58vh;
 	border-radius: 17px;
 	box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.2);
 
 }
 
+
 .cube {
 	max-width: 100%;
-  	height: auto;
+  	min-height: auto;
   	border-radius: 11px;
 }
 
@@ -36,7 +37,7 @@ html {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	flex-wrap: nowrap;
+	flex-wrap: wrap;
 
 
 }
@@ -61,7 +62,7 @@ html {
 h2 {
 	color: hsl(0, 0%, 100%);
 	font-size: 1.36rem;
-	width: max-content;
+	max-width: 11.438rem;
 }
 
 h2:hover {
@@ -74,23 +75,23 @@ h2:hover {
 }
 
 .text {
-	width: 18rem;
-	font-size: 18px;
+	max-width: 18rem;
+	font-size: 1.125rem;
 }
 
 .left {
 	color: hsl(215, 51%, 70%);
 	margin-top: 0;
 	padding-left: 5px;
-	width: 90px;
-	font-size: 18px;
+	min-width: 90px;
+	font-size: 1.125rem;
 }
 
 .cyan {
 	color: hsl(178, 100%, 50%);
 	margin-top: 0;
 	padding-left: 5px;
-	font-size: 18px;
+	font-size: 1.125rem;
 	font-weight: 400;
 }
 
@@ -102,10 +103,11 @@ hr {
 	display: flex;
 	flex-direction: row;
 	padding-top: 16px;
+	flex-wrap: wrap;
 }
 
 .create {
-	width: max-content;
+/*	width: max-content;*/
 	margin: 0;
 	padding-left: 14px;
 	padding-top: 14px;
@@ -129,3 +131,6 @@ hr {
 	cursor: pointer;
 	color: hsl(178, 100%, 50%);
 }
+
+
+
