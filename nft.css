@@ -1,0 +1,112 @@
+html {
+	background-color: hsl(217, 54%, 11%);
+	font-family: 'Outfit', sans-serif;
+
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 98.4vh;
+}
+
+.card {
+	background-color: hsl(216, 50%, 16%);
+	padding: 25px;
+	width: 31vh;
+	height: 58vh;
+	border-radius: 17px;
+	box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.2);
+
+}
+
+.cube {
+	max-width: 100%;
+  	height: auto;
+  	border-radius: 11px;
+}
+
+.combine {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+
+
+}
+
+.price, .days {
+	display: flex;
+	flex-direction: row;
+
+}
+
+.jewel{
+  	max-height: 1.3rem;
+	max-width: 1.3rem;
+}
+
+.clock {
+	max-height: 1.1rem;
+	max-width: 1.1rem;
+	padding-top: 3px;
+}
+
+h2 {
+	color: hsl(0, 0%, 100%);
+	font-size: 1.36rem;
+}
+
+.grey {
+	color: hsl(215, 51%, 70%);
+}
+
+.text {
+	width: 18rem;
+	font-size: 18px;
+}
+
+.left {
+	color: hsl(215, 51%, 70%);
+	margin-top: 0;
+	padding-left: 5px;
+	width: 90px;
+	font-size: 18px;
+}
+
+.cyan {
+	color: hsl(178, 100%, 50%);
+	margin-top: 0;
+	padding-left: 5px;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+hr {
+	color: hsl(215, 32%, 27%)
+}
+
+.last {
+	display: flex;
+	flex-direction: row;
+	padding-top: 16px;
+}
+
+.create {
+	width: 179px;
+	margin: 0;
+	padding: 14px;
+}
+
+.guy {
+	height: 44px;
+	width: 44px;
+	border: 1px solid white;
+	border-radius: 50px;
+	border-color: hsl(0, 0%, 100%);
+}
+
+
+
