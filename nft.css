@@ -28,6 +28,10 @@ html {
   	border-radius: 11px;
 }
 
+.cube:hover {
+	cursor: pointer;
+}
+
 .combine {
 	display: flex;
 	flex-direction: row;
@@ -57,6 +61,12 @@ html {
 h2 {
 	color: hsl(0, 0%, 100%);
 	font-size: 1.36rem;
+	width: max-content;
+}
+
+h2:hover {
+	cursor: pointer;
+	color: hsl(178, 100%, 50%);
 }
 
 .grey {
@@ -95,9 +105,10 @@ hr {
 }
 
 .create {
-	width: 179px;
+	width: max-content;
 	margin: 0;
-	padding: 14px;
+	padding-left: 14px;
+	padding-top: 14px;
 }
 
 .guy {
@@ -108,5 +119,13 @@ hr {
 	border-color: hsl(0, 0%, 100%);
 }
 
+.jule {
+	margin-top: 14px;
+	padding-left: 2px;
+	color: white;
+}
 
-
+.jule:hover {
+	cursor: pointer;
+	color: hsl(178, 100%, 50%);
+}
